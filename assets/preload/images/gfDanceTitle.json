@@ -7,4 +7,5 @@
 	"gfy":40,
 	"backgroundSprite":"",
 	"bpm":102
+        "loop":false,
 }
