@@ -48,7 +48,7 @@ typedef TitleData =
 	gfy:Float,
 	backgroundSprite:String,
 	bpm:Int
-        "loop":false,
+        loop:false,
 }
 class TitleState extends MusicBeatState
 {
