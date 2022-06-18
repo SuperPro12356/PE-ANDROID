@@ -176,7 +176,7 @@ class LoadingState extends MusicBeatState
 		return target;
 	}
 	
-	#if android
+	#if NO_PRELOAD_ALL
 	static function isSoundLoaded(path:String):Bool
 	{
 		return Assets.cache.hasSound(path);
